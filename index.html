@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>clima</title>
+  
+  
+  
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>App Clima</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+   </head>
+   <body>
+      <div class="container wow animated zoomIn" data-wow-delay="0.1s">
+
+      <header>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD9WhbRSr-ocRNOGvwZgvPirDS5IJv1S9wjhUxd18v0cbKSDWi">
+      </header>
+
+      <main>
+    
+         <div id="div-ciudades" >      
+            <label>Ciudad</label>
+            <input type="text" placeholder="Ingresar" name="city" id="input-city" required>
+            <i class="fas fa-search" id="add-btn" ></i>      
+         </div>
+
+         <div id="resultados">
+            <h2>Clima en: <span id="resul-city"></span></h2>
+            <div class="datos">
+               <p>Temperatura: <span id="temp"></span></p>
+               <p>Temperatura Máxima: <span id="temp-max"></span></p>
+               <p>Temperatura Minima: <span id="temp-min"></span></p>
+               <p>Presión: <span id="pres"></span></p>
+               <p>Humedad: <span id="hum"></span></p>
+            </div>
+
+        
+         <p>¿Desea cambiar la escala en la que se muestra la temperatura? </p>
+         <div class="botones-temp">
+            <button id="cel" >°C</button>
+            <button  id="faren" >°F</button>
+            <button id="kel" class="btn">°K</button> 
+      </main>
+      </div>
+
+
+
+
+
+
+
+
+      <script src="js/app.js"></script>
+      <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+   </body>
+</html>
+  
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
